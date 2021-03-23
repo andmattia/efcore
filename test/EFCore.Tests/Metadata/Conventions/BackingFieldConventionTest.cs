@@ -492,7 +492,10 @@ namespace Microsoft.EntityFrameworkCore.Metadata.Conventions
             private string m_Nation;
 
             public object this[string name]
-                => null;
+            {
+                get => null;
+                set { }
+            }
         }
 
 #pragma warning disable RCS1222 // Merge preprocessor directives.

@@ -1702,7 +1702,7 @@ namespace Microsoft.EntityFrameworkCore.Infrastructure
             VerifyError(
                 RelationalStrings.InvalidMappedFunctionWithParameters(
                     nameof(TestMethods),
-                    "Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidatorTest+TestMethods.MethodB(System.Int32)",
+                    "Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidatorTest+TestMethods.MethodB(int)",
                     "{'id'}"),
                 modelBuilder.Model);
         }
